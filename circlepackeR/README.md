@@ -1,9 +1,10 @@
 # image
-<img width="780" alt="gif" src="https://i.imgur.com/lcJjflH.gif">
+![modified.html](https://user-images.githubusercontent.com/58103830/94028049-79795b80-fdf6-11ea-93d3-4aa076ffc205.gif)
+
 ---
-1. Install R
-2. Run the R script
-3. Run the Python script
+1. Install R  
+2. Run the R script  
+3. Run the Python script  
 ---
 - Required
     - circlepackeR
