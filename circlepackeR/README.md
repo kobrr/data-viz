@@ -2,13 +2,14 @@
 ![modified.html](https://user-images.githubusercontent.com/58103830/94028049-79795b80-fdf6-11ea-93d3-4aa076ffc205.gif)
 
 ---
-- Required:
+# Required:
     - R
         - circlepackeR
         - htmlwidgets
     - Python
         - beautifulsoup4         
 ※ Also fine with only R
+
 ---
 # 1. Install R on Ubuntu
 It also works on the EC2 Ubuntu.
@@ -25,8 +26,8 @@ $ sudo apt install r-base
 After intalling libs into R, run the R script.
 We can get a simple "circlepackeR" figure.
 ```shell
-ubuntu@ip-172-**:~$ sudo apt-get install libcurl4-openssl-dev
-ubuntu@ip-172-**:~$ R
+$ sudo apt-get install libcurl4-openssl-dev
+$ R
 > install.packages('remotes')
 > remotes::install_github("jeromefroe/circlepackeR")
 > install.packages('htmlwidgets')
@@ -56,7 +57,7 @@ $ python3 mod.py
 # About ERROR
 You should install pandoc if you get the error below.
 ```shell
-ubuntu@ip-172-**:~$ Rscript test.R 
+$ Rscript test.R 
 Error in saveWidget(x, "test.html") : 
   Saving a widget with selfcontained = TRUE requires pandoc. For details see:
 https://github.com/rstudio/rmarkdown/blob/master/PANDOC.md
